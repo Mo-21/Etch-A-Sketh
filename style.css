@@ -1,0 +1,48 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.colored {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    height: 16px;
+    width: 16px;
+}
+
+button {
+    height: 16px;
+    width: 16px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 224px;
+    margin-right:  224px;
+
+}
+
+.temp {
+    background-color: oldlace;
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+}
+
+/* div#container > div {
+    flex: 1;
+    background-color: oldlace;
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+} */
+
+div#container > div.display {
+    background-color: red;
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+}
