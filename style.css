@@ -1,48 +1,57 @@
 h1 {
-    display: flex;
-    justify-content: center;
-}
-
-.colored {
-    display: flex;
-    justify-content: center;
-    background-color: red;
-    height: 16px;
-    width: 16px;
+  display: flex;
+  justify-content: center;
 }
 
 button {
-    height: 16px;
-    width: 16px;
+  height: auto;
+  width: auto;
+  display: flex;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+  max-height: 800px;
+  margin: 70 auto 0 auto;
+  background: #cccccc;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 #container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-left: 224px;
-    margin-right:  224px;
-
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white;
+  margin: 70 auto 0 auto;
+  width: 600px;
+  height: 600px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .temp {
-    background-color: oldlace;
-    height: 16px;
-    width: 16px;
-    margin: 2px;
+  flex: 1;
+  flex-basis: auto;
+  aspect-ratio: 1/1;
+  height: 10px;
+  width: 10px;
+  margin: 2px;
+  background-color: oldlace;
 }
 
-/* div#container > div {
-    flex: 1;
-    background-color: oldlace;
-    height: 16px;
-    width: 16px;
-    margin: 2px;
-} */
-
 div#container > div.display {
-    background-color: red;
-    height: 16px;
-    width: 16px;
-    margin: 2px;
+  background-color: red;
+  height: 10px;
+  width: 10px;
+  margin: 2px;
 }
